@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    font-family: Arial, Helvitica, sans-serif;
+    background-color: aqua;
+}
+
+#header{
+    text-align: center;
+    background-color: #333;
+    color; #fff;
+    padding: 20px;
+    
+}
+#main{
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../images/mtns.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+#header li{
+    float: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#header ul{
+    list-style-type: none;
+}
+#header a{
+    color: white;
+    text-decoration: none;
+}
+#header a:hover{
+    text-decoration: underline;
+    color:cornsilk;
+}
+
+.boldme{
+    font-weight: bolder
+}
+.nobullet{
+    list-style-type: none
+}
+#title{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.caption{
+    color: white;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    
+        
+}
